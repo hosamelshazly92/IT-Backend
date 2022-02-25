@@ -1,0 +1,18 @@
+[
+  {
+    "letter": "g",
+    "noun": {
+      "word": "gioco",
+      "gender": "maschile"
+    },
+    "verb": "giocare"
+  },
+  {
+    "letter": "p",
+    "noun": {
+      "word": "parola",
+      "gender": "femminile"
+    },
+    "verb": "parlare"
+  }
+]
