@@ -1,18 +1,16 @@
 [
   {
-    "letter": "g",
-    "noun": {
-      "word": "gioco",
-      "gender": "maschile"
-    },
-    "verb": "giocare"
-  },
-  {
     "letter": "p",
     "noun": {
       "word": "parola",
+      "pronunciation": "pa'rɔla",
       "gender": "femminile"
     },
-    "verb": "parlare"
+    "verb": {
+      "word": "parlare",
+      "pronunciation": "par'lare",
+      "type": ["transitivo", "intransitivo"],
+      "auxiliary": "avere"
+    }
   }
 ]

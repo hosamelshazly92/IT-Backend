@@ -14,14 +14,32 @@ const wordSchema = new Schema(
         type: String,
         default: "N/A",
       },
+      pronunciation: {
+        type: String,
+        default: "N/A",
+      },
       gender: {
         type: String,
         default: "N/A",
       },
     },
     verb: {
-      type: String,
-      default: "N/A",
+      word: {
+        type: String,
+        default: "N/A",
+      },
+      pronunciation: {
+        type: String,
+        default: "N/A",
+      },
+      type: {
+        type: Array,
+        default: [],
+      },
+      auxiliary: {
+        type: String,
+        default: "N/A",
+      },
     },
   },
   {
